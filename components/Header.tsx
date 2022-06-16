@@ -17,8 +17,8 @@ const Header = () => {
         {navbarOpen ? <XIcon /> : <MenuIcon />}
       </div>
       <ul
-        className={`md:space-x-9 md:flex md:pb-0 pb-12 md:bg-inherit bg-slate-900 md:shadow-none sm:p-0 p-8 shadow-2xl rounded-lg flex-1 md:flex-none text-center transition-all duration-500 ease-in my-4  ${
-          navbarOpen ? "block" : "hidden"
+        className={`md:space-x-9 md:flex md:pb-0 pb-12 md:bg-inherit bg-slate-900 md:shadow-none sm:p-0 p-8 shadow-md rounded-lg flex-1 md:flex-none text-center transition-all duration-500 ease-in my-4  ${
+          navbarOpen ? "block " : "hidden"
         }`}
       >
         <li className="md:my-0 my-7">
