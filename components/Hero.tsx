@@ -16,7 +16,7 @@ const Hero = () => {
         </p>
 
         <button
-          className="bg-slate-900 p-4 rounded-lg transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-900 duration-300"
+          className="bg-slate-900 p-4 my-4 rounded-lg transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-900 duration-300"
           onClick={() =>
             (window.location.href = "mailto:aayushmohan1702@gmail.com")
           }
