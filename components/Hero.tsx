@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="flex bg-inherit">
       <div className="flex flex-col justify-center text-left p-10 static items-start md:mx-10 my-11">
         <h1 className="md:text-6xl text-3xl font-semibold md:leading-[5rem]">
           Hey There, I'm <br /> Aayush Mohan
@@ -24,6 +24,7 @@ const Hero = () => {
           Contact me
         </button>
       </div>
+      <div></div>
     </div>
   );
 };
