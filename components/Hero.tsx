@@ -3,11 +3,11 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="flex bg-inherit">
-      <div className="flex flex-col justify-center text-left p-10 static items-start md:mx-10 my-11">
+      <div className="flex flex-col justify-center text-left p-10 static items-start md:mx-10 my-11 md:basis-1/2">
         <h1 className="md:text-6xl text-3xl font-semibold md:leading-[5rem]">
           Hey There, I'm <br /> Aayush Mohan
         </h1>
-        <p className="py-4 md:w-2/5 md:py-14">
+        <p className="py-4 md:py-14">
           I'm a Frontend Web Developer with a passion for outstanding design and
           technology. I'm extremely enthusiastic about design and carrying it
           through to completion. I'm a big fan of science and technology, so I
@@ -24,8 +24,9 @@ const Hero = () => {
           Contact me
         </button>
       </div>
-      <div className="items-center flex mx-4 ">
+      <div className="md:items-center flex md:mx-6 md: items-start md:basis-1/2 relative bottom-10">
         <img
+          className="rounded-lg transition"
           src="https://miro.medium.com/max/1400/1*Yw3KVfQTpNjNqNsKfpwJ9A.png"
           alt=""
         />
