@@ -3,8 +3,8 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="flex bg-inherit">
-      <div className="flex flex-col justify-center text-left p-10 static items-start md:mx-10 my-11 md:basis-1/2">
-        <h1 className="md:text-6xl text-3xl font-semibold md:leading-[5rem]">
+      <div className="flex flex-col justify-center text-left p-10 static items-start md:mx-10 my-11 md:basis-1/2 transition translate-y-5 duration-700">
+        <h1 className="md:text-6xl text-3xl font-semibold md:leading-[5rem] ">
           Hey There, I'm <br /> Aayush Mohan
         </h1>
         <p className="py-4 md:py-14">
@@ -24,7 +24,7 @@ const Hero = () => {
           Contact me
         </button>
       </div>
-      <div className="md:items-center flex md:mx-6 md: items-start md:basis-1/2 relative bottom-10">
+      <div className="md:items-center md:flex md:mx-6 hidden md:basis-1/2 relative md:bottom-10">
         <img
           className="rounded-lg transition"
           src="https://miro.medium.com/max/1400/1*Yw3KVfQTpNjNqNsKfpwJ9A.png"
