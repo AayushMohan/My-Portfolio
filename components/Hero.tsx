@@ -24,7 +24,12 @@ const Hero = () => {
           Contact me
         </button>
       </div>
-      <div></div>
+      <div className="items-center flex mx-4 ">
+        <img
+          src="https://miro.medium.com/max/1400/1*Yw3KVfQTpNjNqNsKfpwJ9A.png"
+          alt=""
+        />
+      </div>
     </div>
   );
 };
