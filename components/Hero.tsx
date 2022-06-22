@@ -1,5 +1,6 @@
+import Image from "next/image";
 import React from "react";
-import Pattern from "../Assets/pattern.svg";
+import Programmer from "../Assets/Programmer.jpg";
 
 const Hero = () => {
   return (
@@ -26,14 +27,7 @@ const Hero = () => {
         </button>
       </div>
       <div className="md:items-center md:flex md:mx-6 hidden md:basis-1/2 relative md:bottom-10">
-        <img
-          className="rounded-lg transition"
-          src="https://miro.medium.com/max/1400/1*Yw3KVfQTpNjNqNsKfpwJ9A.png"
-          alt=""
-        />
-      </div>
-      <div>
-        <img src={Pattern} alt="" />
+        <Image src={Programmer} className="rounded-lg" />
       </div>
     </div>
   );
