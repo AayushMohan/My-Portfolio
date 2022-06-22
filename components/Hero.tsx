@@ -1,4 +1,5 @@
 import React from "react";
+import Pattern from "../Assets/pattern.svg";
 
 const Hero = () => {
   return (
@@ -30,6 +31,9 @@ const Hero = () => {
           src="https://miro.medium.com/max/1400/1*Yw3KVfQTpNjNqNsKfpwJ9A.png"
           alt=""
         />
+      </div>
+      <div>
+        <img src={Pattern} alt="" />
       </div>
     </div>
   );
