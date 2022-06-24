@@ -26,7 +26,7 @@ const Stack = () => {
       <div>
         <Image src={Coding} className="items-center p-10 flex" />
       </div>
-      <div className="grid grid-cols-5 items-center">
+      <div className="grid grid-cols-5 gap-6 items-center mx-14 my-10">
         <Image src={HTML} className="" />
         <Image src={CSS} className="" />
         <Image src={Bootstrap} className="" />
