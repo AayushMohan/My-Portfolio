@@ -23,33 +23,35 @@ import Wave2 from "../Assets/Wave-2.svg";
 
 const Stack = () => {
   return (
-    <div className="bg-inherit flex items-center overflow-hidden justify-between ">
-      <h1 className="text-center font-bold text-3xl text-gray-200 pb-10 hover:ease-in transition hover:-translate-y-4 duration-200 cursor-pointer">
+    <div className="bg-inherit overflow-hidden ">
+      <h1 className="text-center font-bold text-3xl text-gray-200 p-10 hover:ease-in transition hover:-translate-y-4 duration-300 cursor-pointer">
         My Tech Stack
       </h1>
-      <Image src={Coding} className="flex p-10 rounded-full" />
-      {/* <Image src={Wave2} className="" /> */}
-      <div className="grid grid-cols-6 gap-6 md:mr-12 p-5 overflow-hidden h-[25rem] w-[25rem] md:h-[35rem] md:w-[35rem]">
-        {/* <div className=""> */}
-        <Image src={HTML} className="" />
-        {/* </div> */}
-        <Image src={CSS} className="" />
-        <Image src={Bootstrap} className="" />
-        <Image src={SCSS} className="" />
-        <Image src={Javascript} className="" />
-        <Image src={ReactIcon} className="" />
-        <Image src={NodeIcon} className="" />
-        <Image src={TypeScript} className="" />
-        <Image src={NextIcon} className="" />
-        <Image src={Vercel} className="" />
-        <Image src={Git} className="" />
-        <Image src={Github} className="" />
-        <Image src={Metamask} className="" />
-        <Image src={Sanity} className="" />
-        <Image src={ThirdWeb} className="" />
-        <Image src={Moralis} className="" />
-        <Image src={FireBase} className="" />
-        <Image src={Alchemy} className="" />
+      <div className="flex md:justify-between md:flex-row flex-col">
+        <Image src={Coding} className="" />
+        {/* <Image src={Wave2} className="" /> */}
+        <div className="grid grid-cols-6 gap-4 md:gap-6 p-6 md:mr-12 md:px-8 overflow-hidden h-[25rem] w-[25rem] md:h-[35rem] md:w-[35rem]">
+          {/* <div className=""> */}
+          <Image src={HTML} className="" />
+          {/* </div> */}
+          <Image src={CSS} className="" />
+          <Image src={Bootstrap} className="" />
+          <Image src={SCSS} className="" />
+          <Image src={Javascript} className="" />
+          <Image src={ReactIcon} className="" />
+          <Image src={NodeIcon} className="" />
+          <Image src={TypeScript} className="" />
+          <Image src={NextIcon} className="" />
+          <Image src={Vercel} className="" />
+          <Image src={Git} className="" />
+          <Image src={Github} className="" />
+          <Image src={Metamask} className="" />
+          <Image src={Sanity} className="" />
+          <Image src={ThirdWeb} className="" />
+          <Image src={Moralis} className="" />
+          <Image src={FireBase} className="" />
+          <Image src={Alchemy} className="" />
+        </div>
       </div>
     </div>
   );
