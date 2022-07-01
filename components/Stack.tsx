@@ -19,15 +19,20 @@ import ThirdWeb from "../Assets/ThirdWeb.svg";
 import Moralis from "../Assets/Moralis.svg";
 import FireBase from "../Assets/FireBase.svg";
 import Alchemy from "../Assets/Alchemy.svg";
+import Wave2 from "../Assets/Wave-2.svg";
 
 const Stack = () => {
   return (
-    <div className="bg-inherit relative flex items-center justify-between">
-      <div>
-        <Image src={Coding} className="items-center p-10 flex" />
-      </div>
-      <div className="grid grid-cols-5 gap-6 items-center mx-14 my-10">
+    <div className="bg-inherit flex items-center overflow-hidden justify-between ">
+      <h1 className="text-center font-bold text-3xl text-gray-200 pb-10 hover:ease-in transition hover:-translate-y-4 duration-200 cursor-pointer">
+        My Tech Stack
+      </h1>
+      <Image src={Coding} className="flex p-10 rounded-full" />
+      {/* <Image src={Wave2} className="" /> */}
+      <div className="grid grid-cols-6 gap-6 md:mr-12 p-5 overflow-hidden h-[25rem] w-[25rem] md:h-[35rem] md:w-[35rem]">
+        {/* <div className=""> */}
         <Image src={HTML} className="" />
+        {/* </div> */}
         <Image src={CSS} className="" />
         <Image src={Bootstrap} className="" />
         <Image src={SCSS} className="" />
