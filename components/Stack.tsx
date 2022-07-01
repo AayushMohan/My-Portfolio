@@ -29,7 +29,6 @@ const Stack = () => {
       </h1>
       <div className="flex md:justify-between md:flex-row flex-col">
         <Image src={Coding} className="" />
-        {/* <Image src={Wave2} className="" /> */}
         <div className="grid grid-cols-6 gap-4 md:gap-6 p-6 md:mr-12 md:px-8 overflow-hidden h-[25rem] w-[25rem] md:h-[35rem] md:w-[35rem]">
           {/* <div className=""> */}
           <Image src={HTML} className="" />
@@ -53,6 +52,7 @@ const Stack = () => {
           <Image src={Alchemy} className="" />
         </div>
       </div>
+      <Image src={Wave2} className="" />
     </div>
   );
 };
