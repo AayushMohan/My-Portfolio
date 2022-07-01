@@ -17,7 +17,7 @@ import Metamask from "../Assets/Metamask.svg";
 import Sanity from "../Assets/Sanity.svg";
 import ThirdWeb from "../Assets/ThirdWeb.svg";
 import Moralis from "../Assets/Moralis.svg";
-import FireBase from "../Assets/FireBase.svg";
+import FireBase from "../Assets/Firebase.svg";
 import Alchemy from "../Assets/Alchemy.svg";
 import Wave2 from "../Assets/Wave-2.svg";
 
