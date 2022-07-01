@@ -10,6 +10,7 @@
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-hover-video-player": "^9.6.1",
     "react-spring": "^9.4.5"
   },
   "devDependencies": {

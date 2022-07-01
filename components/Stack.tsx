@@ -32,7 +32,6 @@ const Stack = () => {
         <div className="grid grid-cols-6 gap-4 md:gap-6 p-6 md:mr-12 md:px-8 overflow-hidden h-[25rem] w-[25rem] md:h-[35rem] md:w-[35rem]">
           {/* <div className=""> */}
           <Image src={HTML} className="" />
-          {/* </div> */}
           <Image src={CSS} className="" />
           <Image src={Bootstrap} className="" />
           <Image src={SCSS} className="" />
