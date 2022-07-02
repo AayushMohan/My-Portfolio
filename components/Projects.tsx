@@ -32,33 +32,51 @@ const Projects = () => {
           />
         </div>
         <div className="md:p-10 md:space-x-10  px-10">
-          <h2 className="text-3xl font-bold md:mx-40 md:text-right">
+          <h2 className="text-4xl font-bold md:mx-8 md:text-right">
             OpenSea Clone
           </h2>
-          <p className="text-xl md:mx-40 md:my-4 md:text-right mt-4">
+          <p className="text-xl md:my-4 px-8 md:text-right mt-4">
             This site is a clone of Opensea, the first and largest NFT
             marketplace in the world. Users can use Metamask to authenticate and
             purchase samples from the collection.
           </p>
 
-          <div className="h-[4rem] w-[18rem] space-x-4 mt-4 cursor-pointer flex justify-start ">
+          <div className="h-[4rem] w-[18rem] md:w-[30rem] md:h-[9rem] items-center space-x-4 mt-4 cursor-pointer flex justify-start ">
             <a href="https://reactjs.org/">
-              <Image src={ReactIcon} className="" />
+              <Image
+                src={ReactIcon}
+                className="transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              />
             </a>
             <a href="https://nextjs.org/">
-              <Image src={NextIcon} className="" />
+              <Image
+                src={NextIcon}
+                className="transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              />
             </a>
             <a href="https://nodejs.org/en/">
-              <Image src={NodeIcon} className="" />
+              <Image
+                src={NodeIcon}
+                className="transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              />
             </a>
             <a href="https://thirdweb.com/">
-              <Image src={ThirdWeb} className="" />
+              <Image
+                src={ThirdWeb}
+                className="transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              />
             </a>
             <a href="https://sanity.io/">
-              <Image src={Sanity} className="" />
+              <Image
+                src={Sanity}
+                className="transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              />
             </a>
             <a href="https://tailwindcss.com/">
-              <Image src={Tailwind} className="" />
+              <Image
+                src={Tailwind}
+                className="transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              />
             </a>
           </div>
           <div className="flex space-x-4">
