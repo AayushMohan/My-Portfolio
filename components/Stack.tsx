@@ -24,13 +24,13 @@ import Wave2 from "../Assets/Wave-2.svg";
 
 const Stack = () => {
   return (
-    <div className="bg-inherit overflow-hidden ">
+    <div className="bg-inherit overflow-hidden">
       <h1 className="text-center font-bold md:text-6xl text-3xl text-gray-200 p-10 hover:ease-in transition hover:-translate-y-4 duration-300 cursor-pointer">
         My Tech Stack
       </h1>
       <div className="flex md:justify-between md:flex-row flex-col">
         <Image src={Coding} className="" />
-        <div className="grid md:grid-cols-5 grid-cols-5 gap-6 md:gap-8 p-4 md:mr-12 md:px-8 overflow-hidden h-[25rem] w-[25rem] md:h-[35rem] md:w-[35rem] items-center">
+        <div className="grid md:grid-cols-5 grid-cols-5 gap-6 md:gap-8 p-8 md:mr-12 md:px-8 overflow-hidden h-[25rem] md:h-[35rem] md:w-[35rem] items-center">
           {/* <div className=""> */}
           <a href="https://www.w3schools.com/html/">
             <Image src={HTML} className="" />

@@ -17,20 +17,20 @@ const AirBnb = () => {
         />
       </div>
       <div className="md:p-10 md:space-x-10  px-10">
-        <h2 className="text-4xl text-center font-bold md:mx-14 md:text-left">
+        <h2 className="text-4xl text-center font-bold md:mx-10 md:text-left">
           Airbnb Clone
         </h2>
-        <p className="text-xl md:my-4 px-4 md:text-left mt-4">
+        <p className="text-xl md:my-4 md:w-auto w-[20rem] text-center md:text-left mt-4">
           This site is a clone of Airbnb, an American company that operates an
           online marketplace for lodging, primarily homestays for vacation
           rentals, and tourism activities. Based in San Francisco, California,
           the platform is accessible via website and mobile app.
         </p>
 
-        <div className="h-[4rem] w-[14rem] md:w-[30rem] md:h-[9rem] items-center space-x-4 mt-4 cursor-pointer flex justify-start ">
+        <div className="h-[4rem] w-[24rem] my-4 md:h-[8rem] items-center space-x-4 cursor-pointer flex justify-start">
           <Image src={Tools2} />
         </div>
-        <div className="flex space-x-4">
+        <div className="flex md:space-x-4 md:justify-start justify-between">
           <a href="https://github.com/AayushMohan/Airbnb-Clone">
             <button className=" p-4 rounded-lg bg-slate-900 font-medium transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300">
               Source Code

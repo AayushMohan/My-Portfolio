@@ -17,20 +17,20 @@ const OpenSea = () => {
           }
         />
       </div>
-      <div className="md:p-10 md:space-x-10  px-10">
+      <div className="md:p-10 md:space-x-10 px-10">
         <h2 className="md:text-4xl text-3xl text-center font-bold md:mx-8 md:text-right">
           OpenSea Clone
         </h2>
-        <p className="md:text-xl md:my-4 px-8 md:text-right mt-4">
+        <p className="md:text-xl md:my-4 md:px-8 md:text-right mt-4 text-center">
           This site is a clone of Opensea, the first and largest NFT marketplace
           in the world. Users can use Metamask to authenticate and purchase
           samples from the collection.
         </p>
 
-        <div className="h-[4rem] w-[16rem] md:w-[30rem] md:h-[9rem] items-center space-x-4 mt-4 cursor-pointer flex justify-start ">
+        <div className="h-[4rem] md:w-[30rem] md:h-[9rem] items-center my-4 cursor-pointer flex md:justify-end ">
           <Image src={Tools} />
         </div>
-        <div className="flex space-x-4">
+        <div className="flex md:space-x-4 md:justify-start justify-between">
           <a href="https://github.com/AayushMohan/opensea-blockchain-clone">
             <button className=" p-4 rounded-lg bg-slate-900 font-medium transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300">
               Source Code
