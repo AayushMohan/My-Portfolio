@@ -12,6 +12,7 @@ import Github from "../Assets/Github.svg";
 import Metamask from "../Assets/Metamask.svg";
 import Sanity from "../Assets/Sanity.svg";
 import ThirdWeb from "../Assets/ThirdWeb.svg";
+import Tailwind from "../Assets/Tailwind.svg";
 import Moralis from "../Assets/Moralis.svg";
 
 const Projects = () => {
@@ -26,24 +27,51 @@ const Projects = () => {
             videoSrc="https://res.cloudinary.com/upwork-fp/video/upload/c_scale,w_1000,q_auto/v1647622694/profile/portfolio/1396689749490266112/sibjvk6arybl7tdsd6pt.mp4"
             className="md:h-[40rem] md:w-[40rem] md:space-x-2 p-8 transition ease-in duration-150"
             pausedOverlay={
-              <Image src={OS} width="1150" height="700" objectFit="fill" />
+              <Image src={OS} width="1100" height="650" objectFit="fill" />
             }
           />
         </div>
-        <div className="md:p-10 md:space-x-10 p-10">
-          <h2 className="text-3xl md:mx-40 md:text-right">OpenSea Clone</h2>
-          <p className="text-xl md:mx-40 md:my-4 md:text-right">
+        <div className="md:p-10 md:space-x-10  px-10">
+          <h2 className="text-3xl font-bold md:mx-40 md:text-right">
+            OpenSea Clone
+          </h2>
+          <p className="text-xl md:mx-40 md:my-4 md:text-right mt-4">
             This site is a clone of Opensea, the first and largest NFT
             marketplace in the world. Users can use Metamask to authenticate and
             purchase samples from the collection.
           </p>
 
-          <div className="h-14 w-14 my-4 cursor-pointer flex justify-start ">
+          <div className="h-[4rem] w-[18rem] space-x-4 mt-4 cursor-pointer flex justify-start ">
             <a href="https://reactjs.org/">
               <Image src={ReactIcon} className="" />
             </a>
+            <a href="https://nextjs.org/">
+              <Image src={NextIcon} className="" />
+            </a>
             <a href="https://nodejs.org/en/">
               <Image src={NodeIcon} className="" />
+            </a>
+            <a href="https://thirdweb.com/">
+              <Image src={ThirdWeb} className="" />
+            </a>
+            <a href="https://sanity.io/">
+              <Image src={Sanity} className="" />
+            </a>
+            <a href="https://tailwindcss.com/">
+              <Image src={Tailwind} className="" />
+            </a>
+          </div>
+          <div className="flex space-x-4">
+            <a href="https://github.com/AayushMohan/opensea-blockchain-clone">
+              <button className=" p-4 rounded-lg bg-slate-900 font-medium transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300">
+                Source Code
+              </button>
+            </a>
+
+            <a href="https://opensea-blockchain-clone-psi.vercel.app/">
+              <button className="p-4 rounded-lg px-8 bg-slate-300 text-slate-900 transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-100 duration-300">
+                Live URL
+              </button>
             </a>
           </div>
         </div>
