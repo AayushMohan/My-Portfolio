@@ -27,7 +27,7 @@ const AirBnb = () => {
           the platform is accessible via website and mobile app.
         </p>
 
-        <div className="h-[4rem] w-[3rem] md:w-[30rem] md:h-[9rem] items-center space-x-4 mt-4 cursor-pointer flex justify-start ">
+        <div className="h-[4rem] w-[14rem] md:w-[30rem] md:h-[9rem] items-center space-x-4 mt-4 cursor-pointer flex justify-start ">
           <Image src={Tools2} />
         </div>
         <div className="flex space-x-4">

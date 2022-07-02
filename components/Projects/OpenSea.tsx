@@ -27,7 +27,7 @@ const OpenSea = () => {
           samples from the collection.
         </p>
 
-        <div className="h-[4rem] w-[18rem] md:w-[30rem] md:h-[9rem] items-center space-x-4 mt-4 cursor-pointer flex justify-start ">
+        <div className="h-[4rem] w-[16rem] md:w-[30rem] md:h-[9rem] items-center space-x-4 mt-4 cursor-pointer flex justify-start ">
           <Image src={Tools} />
         </div>
         <div className="flex space-x-4">
