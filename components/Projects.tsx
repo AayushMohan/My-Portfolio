@@ -1,7 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import AirBnb from "./Projects/AirBnb";
 import OpenSea from "./Projects/OpenSea";
+import Twitter from "./Projects/Twitter";
 
 const Projects = () => {
   return (
@@ -11,6 +13,7 @@ const Projects = () => {
       </h1>
       <OpenSea />
       <AirBnb />
+      <Twitter />
     </div>
   );
 };
