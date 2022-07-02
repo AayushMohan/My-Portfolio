@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { LockClosedIcon, MenuIcon, XIcon } from "@heroicons/react/solid";
+import Aayush from "../Assets/Aayush.svg";
+import Image from "next/image";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -7,7 +9,9 @@ const Header = () => {
   return (
     <div className="mx-10 py-10 md:flex justify-between relative items-center">
       {/* Icon */}
-      <div>Aayush</div>
+      <div className="h-16 w-16 ">
+        <Image src={Aayush} />
+      </div>
 
       {/* Nav */}
       <div

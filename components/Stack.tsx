@@ -29,7 +29,10 @@ const Stack = () => {
         My Tech Stack
       </h1>
       <div className="flex md:justify-between md:flex-row flex-col">
-        <Image src={Coding} className="" />
+        <div className="h-[20rem] w-[20rem] mx-8 md:mt-[6rem]">
+          <Image src={Coding} className="" />
+        </div>
+
         <div className="grid md:grid-cols-5 grid-cols-5 gap-6 md:gap-8 p-8 md:mr-12 md:px-8 overflow-hidden h-[25rem] md:h-[35rem] md:w-[35rem] items-center">
           {/* <div className=""> */}
           <a href="https://www.w3schools.com/html/">

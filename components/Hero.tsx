@@ -6,12 +6,12 @@ import Wave from "../Assets/wave.svg";
 const Hero = () => {
   return (
     <div className="bg-inherit">
-      <div className="flex ">
+      <div className="flex">
         <div className="flex flex-col justify-center text-left p-10 static items-start md:mx-10 my-11 md:basis-1/2 transition-all translate-y-5 duration-150">
-          <h1 className="md:text-6xl text-3xl font-semibold md:leading-[5rem] ">
+          <h1 className="md:text-6xl text-3xl font-semibold md:leading-[5rem] leading-relaxed ">
             Hey There, I'm <br /> Aayush Mohan
           </h1>
-          <p className="py-4 md:py-14">
+          <p className="py-4 md:py-14 leading-normal tracking-wide">
             I'm a Frontend Web Developer with a passion for outstanding design
             and technology. I'm extremely enthusiastic about design and carrying
             it through to completion. I'm a big fan of science and technology,
