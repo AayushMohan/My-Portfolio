@@ -36,70 +36,70 @@ const Stack = () => {
         <div className="grid md:grid-cols-5 grid-cols-5 gap-6 md:gap-8 p-8 md:mr-12 md:px-8 overflow-hidden h-[25rem] md:h-[35rem] md:w-[35rem] items-center">
           {/* <div className=""> */}
           <a href="https://www.w3schools.com/html/">
-            <Image src={HTML} className="" />
+            <Image src={HTML} className=" btnAni" />
           </a>
           <a href="https://www.w3schools.com/css/">
-            <Image src={CSS} className="" />
+            <Image src={CSS} className=" btnAni" />
           </a>
           <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">
-            <Image src={Bootstrap} className="" />
+            <Image src={Bootstrap} className=" btnAni" />
           </a>
           <a href="https://sass-lang.com/">
-            <Image src={SCSS} className="" />
+            <Image src={SCSS} className=" btnAni" />
           </a>
           <a href="https://tailwindcss.com/">
-            <Image src={Tailwind} className="" />
+            <Image src={Tailwind} className=" btnAni" />
           </a>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            <Image src={Javascript} className="" />
+            <Image src={Javascript} className=" btnAni" />
           </a>
           <a href="https://reactjs.org/">
-            <Image src={ReactIcon} className="" />
+            <Image src={ReactIcon} className=" btnAni" />
           </a>
           <a href="https://redux.js.org/">
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg"
               alt=""
-              className="w-14 h-14 space-y-14"
+              className="w-14 h-14 space-y-14 btnAni"
             />
           </a>
           <a href="https://nodejs.org/en/">
-            <Image src={NodeIcon} className="" />
+            <Image src={NodeIcon} className=" btnAni" />
           </a>
           <a href="https://www.typescriptlang.org/">
-            <Image src={TypeScript} className="" />
+            <Image src={TypeScript} className=" btnAni" />
           </a>
           <a href="https://nextjs.org/">
-            <Image src={NextIcon} className="" />
+            <Image src={NextIcon} className=" btnAni" />
           </a>
 
           <a href="https://vercel.com/home?utm_source=next-site&utm_medium=banner&utm_campaign=next-website">
-            <Image src={Vercel} className="" />
+            <Image src={Vercel} className="btnAni" />
           </a>
           <a href="https://git-scm.com/">
-            <Image src={Git} className="" />
+            <Image src={Git} className="btnAni" />
           </a>
 
           <a href="https://github.com/">
-            <Image src={Github} className="" />
+            <Image src={Github} className="btnAni" />
           </a>
           <a href="https://metamask.io/">
-            <Image src={Metamask} className="" />
+            <Image src={Metamask} className="btnAni" />
           </a>
           <a href="https://sanity.io/">
-            <Image src={Sanity} className="" />
+            <Image src={Sanity} className="btnAni" />
           </a>
           <a href="https://thirdweb.com/">
-            <Image src={ThirdWeb} className="" />
+            <Image src={ThirdWeb} className="btnAni" />
           </a>
           <a href="https://moralis.io/">
-            <Image src={Moralis} className="" />
+            <Image src={Moralis} className="btnAni" />
           </a>
           <a href="https://firebase.google.com/">
-            <Image src={FireBase} className="" />
+            <Image src={FireBase} className="btnAni" />
           </a>
           <a href="https://alchemy.com/">
-            <Image src={Alchemy} className="" />
+            <Image src={Alchemy} className="btnAni" />
           </a>
         </div>
       </div>

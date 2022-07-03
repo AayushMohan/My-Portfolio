@@ -27,28 +27,28 @@ const Footer = () => {
           <a href="https://github.com/AayushMohan">
             <img
               src="https://img.icons8.com/glyph-neue/64/000000/github.png"
-              className="bg-white rounded-full w-10 h-10"
+              className="bg-white rounded-full w-10 h-10 btnAni"
             />
           </a>
 
           <a href="https://www.linkedin.com/in/aayushmohan/">
             <img
               src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v1.png"
-              className="bg-white rounded-full w-10 h-10 "
+              className="bg-white rounded-full w-10 h-10 btnAni"
             />
           </a>
 
           <a href="https://www.instagram.com/aayushcodes/">
             <img
               src="https://img.icons8.com/ios-filled/50/000000/instagram-new--v1.png"
-              className="bg-white rounded-2xl w-10 h-10 "
+              className="bg-white rounded-2xl w-10 h-10 btnAni"
             />
           </a>
 
           <a href="https://twitter.com/AayushMohan">
             <img
               src="https://img.icons8.com/ios-filled/50/000000/twitter.png"
-              className="bg-white rounded-full w-10 h-10 "
+              className="bg-white rounded-full w-10 h-10 btnAni"
             />
           </a>
         </div>

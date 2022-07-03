@@ -7,3 +7,9 @@
   font-family: 'OpenSans', sans-serif;
  }
 }
+
+@layer components {
+  .btnAni{
+   @apply bg-transparent font-medium transition hover:ease-in ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 hover:duration-300;
+  }
+}
