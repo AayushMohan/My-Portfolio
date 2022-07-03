@@ -12,7 +12,13 @@ const AirBnb = () => {
           videoSrc="https://res.cloudinary.com/upwork-fp/video/upload/c_scale,w_1000,q_auto/v1649101379/profile/portfolio/1396689749490266112/gdwtrazngmuopaq7wjdi.mov"
           className="md:h-[40rem] md:w-[40rem] md:space-x-2 p-8 transition ease-in duration-150"
           pausedOverlay={
-            <Image src={Airbnb} width="1100" height="650" objectFit="fill" />
+            <Image
+              src={Airbnb}
+              width="1100"
+              height="650"
+              objectFit="fill"
+              alt="Airbnb Thumbnail"
+            />
           }
         />
       </div>

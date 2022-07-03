@@ -28,6 +28,7 @@ const Footer = () => {
             <img
               src="https://img.icons8.com/glyph-neue/64/000000/github.png"
               className="bg-white rounded-full w-10 h-10 btnAni"
+              alt="Github"
             />
           </a>
 
@@ -35,6 +36,7 @@ const Footer = () => {
             <img
               src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v1.png"
               className="bg-white rounded-full w-10 h-10 btnAni"
+              alt="Linkedin"
             />
           </a>
 
@@ -42,6 +44,7 @@ const Footer = () => {
             <img
               src="https://img.icons8.com/ios-filled/50/000000/instagram-new--v1.png"
               className="bg-white rounded-2xl w-10 h-10 btnAni"
+              alt="Instagram"
             />
           </a>
 
@@ -49,6 +52,7 @@ const Footer = () => {
             <img
               src="https://img.icons8.com/ios-filled/50/000000/twitter.png"
               className="bg-white rounded-full w-10 h-10 btnAni"
+              alt="Twitter"
             />
           </a>
         </div>

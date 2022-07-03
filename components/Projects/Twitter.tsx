@@ -12,7 +12,13 @@ const Twitter = () => {
           videoSrc="https://res.cloudinary.com/upwork-fp/video/upload/c_scale,w_1000,q_auto/v1655152527/profile/portfolio/1396689749490266112/fb9c0ttmjzamaoiagxz8.mp4"
           className="md:h-[40rem] md:w-[40rem] md:space-x-2 p-8 transition ease-in duration-150"
           pausedOverlay={
-            <Image src={twitter} width="1100" height="650" objectFit="fill" />
+            <Image
+              src={twitter}
+              width="1100"
+              height="650"
+              objectFit="fill"
+              alt="Twitter"
+            />
           }
         />
       </div>

@@ -25,7 +25,7 @@ const Projects = () => {
         </Link>
       </div>
       <div className="bg-inherit">
-        <Image src={wave3} />
+        <Image src={wave3} alt="wave" />
       </div>
       <Footer />
     </div>

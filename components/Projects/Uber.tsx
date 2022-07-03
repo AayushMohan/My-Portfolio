@@ -12,7 +12,12 @@ const Uber = () => {
           videoSrc="https://res.cloudinary.com/upwork-fp/video/upload/c_scale,w_1000,q_auto/v1647624701/profile/portfolio/1396689749490266112/wrza5xsvf1wgwp5hncvl.mp4"
           className="md:space-x-2 p-8 transition ease-in duration-150 rounded-lg md:w-[22.5rem] md:h-[46.25rem]"
           pausedOverlay={
-            <Image src={uber} objectFit="fill" className="rounded-lg " />
+            <Image
+              src={uber}
+              objectFit="fill"
+              className="rounded-lg "
+              alt="Uber Thumbnail"
+            />
           }
         />
       </div>
