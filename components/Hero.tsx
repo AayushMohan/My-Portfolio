@@ -29,10 +29,16 @@ const Hero = () => {
           </button>
         </div>
         <div className="md:items-center md:flex md:mx-6 hidden md:basis-1/2 relative md:bottom-10 :transition -translate-x-1 ">
-          <Image src={Programmer} className="rounded-lg" />
+          <Image
+            src={Programmer}
+            alt="Programmer"
+            className="rounded-lg"
+            width=""
+            height=""
+          />
         </div>
       </div>
-      <Image src={Wave} className="" />
+      <Image src={Wave} className="" alt="Wave" height="" width="" />
     </div>
   );
 };

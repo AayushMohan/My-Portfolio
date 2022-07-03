@@ -29,81 +29,81 @@ const Stack = () => {
         My Tech Stack
       </h1>
       <div className="flex md:justify-between md:flex-row flex-col">
-        <div className="h-[20rem] w-[20rem] mx-8 md:mt-[6rem]">
+        <div className="h-[20rem] w-[20rem] md:w-[40rem] md:h-[40rem] mx-8 md:mt-[6rem]">
           <Image src={Coding} className="" />
         </div>
 
         <div className="grid md:grid-cols-5 grid-cols-5 gap-6 md:gap-8 p-8 md:mr-12 md:px-8 overflow-hidden h-[25rem] md:h-[35rem] md:w-[35rem] items-center">
           {/* <div className=""> */}
           <a href="https://www.w3schools.com/html/">
-            <Image src={HTML} className=" btnAni" />
+            <Image src={HTML} className=" btnAni" alt="html" />
           </a>
           <a href="https://www.w3schools.com/css/">
-            <Image src={CSS} className=" btnAni" />
+            <Image src={CSS} className=" btnAni" alt="css" />
           </a>
           <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">
-            <Image src={Bootstrap} className=" btnAni" />
+            <Image src={Bootstrap} className=" btnAni" alt="Bootstrap" />
           </a>
           <a href="https://sass-lang.com/">
-            <Image src={SCSS} className=" btnAni" />
+            <Image src={SCSS} className=" btnAni" alt="SCSS" />
           </a>
           <a href="https://tailwindcss.com/">
-            <Image src={Tailwind} className=" btnAni" />
+            <Image src={Tailwind} className=" btnAni" alt="Tailwind" />
           </a>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-            <Image src={Javascript} className=" btnAni" />
+            <Image src={Javascript} className=" btnAni" alt="Javascript" />
           </a>
           <a href="https://reactjs.org/">
-            <Image src={ReactIcon} className=" btnAni" />
+            <Image src={ReactIcon} className=" btnAni" alt="ReactIcon" />
           </a>
           <a href="https://redux.js.org/">
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg"
-              alt=""
+              alt="redux"
               className="w-14 h-14 space-y-14 btnAni"
             />
           </a>
           <a href="https://nodejs.org/en/">
-            <Image src={NodeIcon} className=" btnAni" />
+            <Image src={NodeIcon} className=" btnAni" alt="NodeIcon" />
           </a>
           <a href="https://www.typescriptlang.org/">
-            <Image src={TypeScript} className=" btnAni" />
+            <Image src={TypeScript} className=" btnAni" alt="TypeScript" />
           </a>
           <a href="https://nextjs.org/">
-            <Image src={NextIcon} className=" btnAni" />
+            <Image src={NextIcon} className=" btnAni" alt="NextIcon" />
           </a>
 
           <a href="https://vercel.com/home?utm_source=next-site&utm_medium=banner&utm_campaign=next-website">
-            <Image src={Vercel} className="btnAni" />
+            <Image src={Vercel} className="btnAni" alt="Vercel" />
           </a>
           <a href="https://git-scm.com/">
-            <Image src={Git} className="btnAni" />
+            <Image src={Git} className="btnAni" alt="Git" />
           </a>
 
           <a href="https://github.com/">
-            <Image src={Github} className="btnAni" />
+            <Image src={Github} className="btnAni" alt="Github" />
           </a>
           <a href="https://metamask.io/">
-            <Image src={Metamask} className="btnAni" />
+            <Image src={Metamask} className="btnAni" alt="Metamask" />
           </a>
           <a href="https://sanity.io/">
-            <Image src={Sanity} className="btnAni" />
+            <Image src={Sanity} className="btnAni" alt="Sanity" />
           </a>
           <a href="https://thirdweb.com/">
-            <Image src={ThirdWeb} className="btnAni" />
+            <Image src={ThirdWeb} className="btnAni" alt="ThirdWeb" />
           </a>
           <a href="https://moralis.io/">
-            <Image src={Moralis} className="btnAni" />
+            <Image src={Moralis} className="btnAni" alt="Moralis" />
           </a>
           <a href="https://firebase.google.com/">
-            <Image src={FireBase} className="btnAni" />
+            <Image src={FireBase} className="btnAni" alt="FireBase" />
           </a>
           <a href="https://alchemy.com/">
-            <Image src={Alchemy} className="btnAni" />
+            <Image src={Alchemy} className="btnAni" alt="Alchemy" />
           </a>
         </div>
       </div>
-      <Image src={Wave2} className="" />
+      <Image src={Wave2} className="" alt="Wave" />
     </div>
   );
 };

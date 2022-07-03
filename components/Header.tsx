@@ -10,7 +10,7 @@ const Header = () => {
     <div className="mx-10 py-10 md:flex justify-between relative items-center">
       {/* Icon */}
       <div className="h-16 w-16 ">
-        <Image src={Aayush} />
+        <Image src={Aayush} alt="Aayush" />
       </div>
 
       {/* Nav */}
