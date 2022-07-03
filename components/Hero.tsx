@@ -33,8 +33,8 @@ const Hero = () => {
             src={Programmer}
             alt="Programmer"
             className="rounded-lg"
-            width="442.578"
-            height="258.352"
+            width="652.23"
+            height="380.73"
           />
         </div>
       </div>
