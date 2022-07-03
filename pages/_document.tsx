@@ -3,13 +3,14 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <meta title="Aayush Mohan Portfolio" content="" />
           <meta
             name="description"
             content="Aayush Mohan a Frontend Web Developer who is Passionate about Design and Technology."
           />
+
           <link
             href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
             rel="stylesheet"
