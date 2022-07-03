@@ -33,7 +33,7 @@ const OpenSea = () => {
         </p>
 
         <div className="h-[4rem] md:w-[30rem] md:h-[9rem] items-center my-4 cursor-pointer flex md:justify-end ">
-          <Image src={Tools} />
+          <Image src={Tools} alt="Tools" />
         </div>
         <div className="flex md:space-x-4 md:justify-start justify-between">
           <a href="https://github.com/AayushMohan/opensea-blockchain-clone">

@@ -33,7 +33,7 @@ const Twitter = () => {
         </p>
 
         <div className="h-[6rem] my-4 md:h-[8rem] items-center space-x-4 cursor-pointer flex justify-start">
-          <Image src={Tools3} />
+          <Image src={Tools3} alt="Tools" />
         </div>
         <div className="flex md:space-x-4 md:justify-start justify-between">
           <a href="https://github.com/AayushMohan/Twitter-2.0-Clone">
