@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         primary: "#080F18",
       },
+      fontFamily: {
+        logo: ["The Nautigal"],
+      },
     },
   },
   plugins: [],
