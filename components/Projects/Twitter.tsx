@@ -26,7 +26,7 @@ const Twitter = () => {
         <h2 className="md:text-4xl text-3xl text-center font-bold md:mx-8 md:text-right">
           Twitter Clone
         </h2>
-        <p className="md:text-xl md:my-4 md:px-8 md:text-right mt-4 text-center">
+        <p className="md:text-xl md:my-4 md:px-8 md:text-right mt-4 text-center text-gray-400">
           This site is a clone of Twitter, A social networking platform that
           allows its users to send and read micro-blogs of up to 280-characters
           known as tweets.

@@ -26,7 +26,7 @@ const OpenSea = () => {
         <h2 className="md:text-4xl text-3xl text-center font-bold md:mx-8 md:text-right">
           OpenSea Clone
         </h2>
-        <p className="md:text-xl md:my-4 md:px-8 md:text-right mt-4 text-center">
+        <p className="md:text-xl md:my-4 md:px-8 md:text-right mt-4 text-center text-gray-400">
           This site is a clone of Opensea, the first and largest NFT marketplace
           in the world. Users can use Metamask to authenticate and purchase
           samples from the collection.

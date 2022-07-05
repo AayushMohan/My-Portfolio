@@ -26,7 +26,7 @@ const Uber = () => {
         <h2 className="text-4xl text-center font-bold md:mx-10 md:text-left">
           Uber App Clone
         </h2>
-        <p className="text-xl md:my-4 md:w-auto w-[20rem] text-center md:text-left mt-4">
+        <p className="text-xl md:my-4 md:w-auto w-[20rem] text-center md:text-left mt-4 text-gray-400">
           This site is a clone of Uber Mobile App, an American mobility as a
           service provider. It is based in San Francisco with operations in
           approximately 72 countries and 10,500 cities.

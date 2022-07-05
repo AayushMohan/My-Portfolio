@@ -26,7 +26,7 @@ const AirBnb = () => {
         <h2 className="text-4xl text-center font-bold md:mx-10 md:text-left">
           Airbnb Clone
         </h2>
-        <p className="text-xl md:my-4 md:w-auto w-[20rem] text-center md:text-left mt-4">
+        <p className="text-xl md:my-4 md:w-auto w-[20rem] text-center md:text-left mt-4 text-gray-400">
           This site is a clone of Airbnb, an American company that operates an
           online marketplace for lodging, primarily homestays for vacation
           rentals, and tourism activities. Based in San Francisco, California,

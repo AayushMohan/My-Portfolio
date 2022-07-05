@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="flex space-x-4 md:mr-10 mb-10">
           <a href="https://github.com/AayushMohan">
             <img
-              src="https://img.icons8.com/glyph-neue/64/000000/github.png"
+              src="https://img.icons8.com/material-rounded/48/000000/github.png"
               className="bg-white rounded-full w-10 h-10 btnAni"
               alt="Github"
             />

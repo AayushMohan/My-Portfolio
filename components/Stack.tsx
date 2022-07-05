@@ -103,7 +103,7 @@ const Stack = () => {
           </a>
         </div>
       </div>
-      <Image src={Wave2} className="" alt="Wave" />
+      <Image src={Wave2} className="" alt="Wave" width="1450" height="400" />
     </div>
   );
 };
