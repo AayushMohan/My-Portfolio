@@ -32,7 +32,7 @@ const Twitter = () => {
           known as tweets.
         </p>
 
-        <div className="h-[6rem] my-4 md:h-[8rem] items-center space-x-4 cursor-pointer flex justify-start">
+        <div className="h-[6rem] w-[21rem] my-4 md:h-[8rem] items-center space-x-4 cursor-pointer flex justify-start">
           <Image src={Tools3} alt="Tools" />
         </div>
         <div className="flex md:space-x-4 md:justify-start justify-between">

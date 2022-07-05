@@ -22,18 +22,18 @@ const AirBnb = () => {
           }
         />
       </div>
-      <div className="md:p-10 md:space-x-10  px-10">
+      <div className="md:p-10 md:space-x-10 px-10">
         <h2 className="text-4xl text-center font-bold md:mx-10 md:text-left">
           Airbnb Clone
         </h2>
-        <p className="text-xl md:my-4 md:w-auto w-[20rem] text-center md:text-left mt-4 text-gray-400">
+        <p className="md:text-xl md:my-4 md:w-auto  text-center md:text-left mt-4 text-gray-400">
           This site is a clone of Airbnb, an American company that operates an
           online marketplace for lodging, primarily homestays for vacation
           rentals, and tourism activities. Based in San Francisco, California,
           the platform is accessible via website and mobile app.
         </p>
 
-        <div className="h-[6rem] w-[24rem] my-4 md:h-[8rem] items-center space-x-4 cursor-pointer flex justify-start">
+        <div className="h-[6rem] w-[21rem] my-4 md:h-[8rem] items-center cursor-pointer flex justify-start">
           <Image src={Tools2} alt="Tools" />
         </div>
         <div className="flex md:space-x-4 md:justify-start justify-between">
