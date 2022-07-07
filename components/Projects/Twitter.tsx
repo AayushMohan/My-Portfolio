@@ -6,7 +6,7 @@ import Tools3 from "../../Assets/Tools3.svg";
 
 const Twitter = () => {
   return (
-    <div className="overflow-hidden pb-20 bg-inherit flex md:flex-row flex-col">
+    <div className="overflow-hidden bg-inherit flex md:flex-row flex-col">
       <div>
         <HoverVideoPlayer
           videoSrc="https://res.cloudinary.com/upwork-fp/video/upload/c_scale,w_1000,q_auto/v1655152527/profile/portfolio/1396689749490266112/fb9c0ttmjzamaoiagxz8.mp4"
@@ -32,7 +32,7 @@ const Twitter = () => {
           known as tweets.
         </p>
 
-        <div className="h-[6rem] w-[21rem] my-4 md:h-[8rem] items-center space-x-4 cursor-pointer flex justify-start">
+        <div className="h-[6rem] w-[16rem] my-4 md:h-[8rem] items-center space-x-4 cursor-pointer flex justify-start">
           <Image src={Tools3} alt="Tools" />
         </div>
         <div className="flex md:space-x-4 md:justify-start justify-between">

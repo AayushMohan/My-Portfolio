@@ -6,7 +6,7 @@ import Tools2 from "../../Assets/Tools2.svg";
 
 const AirBnb = () => {
   return (
-    <div className="overflow-hidden h-screen bg-inherit flex md:flex-row-reverse flex-col">
+    <div className="overflow-hidden pb-12 bg-inherit flex md:flex-row-reverse flex-col">
       <div>
         <HoverVideoPlayer
           videoSrc="https://res.cloudinary.com/upwork-fp/video/upload/c_scale,w_1000,q_auto/v1649101379/profile/portfolio/1396689749490266112/gdwtrazngmuopaq7wjdi.mov"
@@ -26,7 +26,7 @@ const AirBnb = () => {
         <h2 className="text-4xl text-center font-bold md:mx-10 md:text-left">
           Airbnb Clone
         </h2>
-        <p className="md:text-xl md:my-4 md:w-auto  text-center md:text-left mt-4 text-gray-400">
+        <p className="md:text-xl md:my-4 md:w-auto text-center md:text-left mt-4 text-gray-400">
           This site is a clone of Airbnb, an American company that operates an
           online marketplace for lodging, primarily homestays for vacation
           rentals, and tourism activities. Based in San Francisco, California,

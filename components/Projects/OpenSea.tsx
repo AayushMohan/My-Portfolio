@@ -6,7 +6,7 @@ import Tools from "../../Assets/Tools.svg";
 
 const OpenSea = () => {
   return (
-    <div className="overflow-hidden  bg-inherit flex md:flex-row flex-col">
+    <div className="overflow-hidden pb-12 bg-inherit flex md:flex-row flex-col">
       <div>
         <HoverVideoPlayer
           videoSrc="https://res.cloudinary.com/upwork-fp/video/upload/c_scale,w_1000,q_auto/v1647622694/profile/portfolio/1396689749490266112/sibjvk6arybl7tdsd6pt.mp4"

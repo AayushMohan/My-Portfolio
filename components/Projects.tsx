@@ -19,7 +19,7 @@ const Projects = () => {
         <Twitter />
         <div className="bg-inherit text-center">
           <Link href="/Project">
-            <button className="p-4 px-8  rounded-lg bg-slate-900 font-medium transition hover:ease-in  ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300">
+            <button className="p-4 px-8 mt-28 md:mt-0 rounded-lg bg-slate-900 font-medium transition hover:ease-in ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-800 duration-300">
               Show More
             </button>
           </Link>
