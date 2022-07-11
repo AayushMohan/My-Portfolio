@@ -24,7 +24,7 @@ import Wave2 from "../Assets/Wave-2.svg";
 
 const Stack = () => {
   return (
-    <div className="bg-inherit overflow-hidden">
+    <div className="bg-inherit overflow-hidden" id="stacks">
       <h1 className="text-center font-bold md:text-6xl text-3xl text-gray-200 p-10 hover:ease-in transition hover:-translate-y-4 duration-300 cursor-pointer">
         My Tech Stack
       </h1>

@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="h-screen bg-inherit">
+    <div className="h-screen bg-inherit" id="projects">
       <h1 className="md:text-6xl font-semibold text-center p-12 pb-20 text-3xl">
         Featured Projects
       </h1>

@@ -5,7 +5,7 @@ import Wave from "../Assets/wave.svg";
 
 const Hero = () => {
   return (
-    <div className="bg-inherit">
+    <div className="bg-inherit" id="hero">
       <div className="flex">
         <div className="flex flex-col justify-center text-left p-10 static items-start md:mx-10 my-11 md:basis-1/2 transition-all translate-y-5 duration-150">
           <h1 className="md:text-6xl text-3xl font-semibold md:leading-[5rem] leading-relaxed ">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -24,24 +25,53 @@ const Header = () => {
         }`}
       >
         <li className="md:my-0 my-7">
-          <a className="hover:underline" href="#About">
+          <Link
+            to="hero"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="hover:underline cursor-pointer"
+          >
             About
-          </a>
+          </Link>
         </li>{" "}
         <li className="md:my-0 my-7">
-          <a className="hover:underline" href="#Stacks">
+          <Link
+            to="stacks"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="hover:underline cursor-pointer"
+          >
             Stacks
-          </a>
+          </Link>
         </li>
         <li className="md:my-0 my-7">
-          <a className="hover:underline" href="#Projects">
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="hover:underline cursor-pointer"
+            href="#Projects"
+          >
             Projects
-          </a>
+          </Link>
         </li>
         <li className="md:my-0 my-7">
-          <a className="hover:underline" href="#Contact">
+          <Link
+            to="footer"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="hover:underline cursor-pointer"
+          >
             Contact Me
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
