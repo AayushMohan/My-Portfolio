@@ -24,51 +24,41 @@ const Header = () => {
           navbarOpen ? "block " : "hidden"
         }`}
       >
-        <li className="md:my-0 my-7">
-          <Link
-            to="hero"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="cursor-pointer  hover:border-b-4 pb-2 border-slate-700"
-          >
+        <li className="md:my-0 my-7 cursor-pointer hover:border-b-4 pb-2 border-slate-700">
+          <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}>
             About
           </Link>
         </li>{" "}
-        <li className="md:my-0 my-7">
+        <li className="md:my-0 my-7 hover:border-b-4 pb-2 border-slate-700 cursor-pointer">
           <Link
             to="stacks"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
-            className="hover:border-b-4 pb-2 border-slate-700 cursor-pointer"
           >
             Stacks
           </Link>
         </li>
-        <li className="md:my-0 my-7">
+        <li className="md:my-0 my-7 hover:border-b-4 pb-2 border-slate-700 cursor-pointer">
           <Link
             to="projects"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
-            className="hover:border-b-4 pb-2 border-slate-700 cursor-pointer"
-            href="#Projects"
+            href="Projects"
           >
             Projects
           </Link>
         </li>
-        <li className="md:my-0 my-7">
+        <li className="md:my-0 my-7 hover:border-b-4 pb-2 border-slate-700 cursor-pointer">
           <Link
             to="footer"
             spy={true}
             smooth={true}
             offset={-150}
             duration={500}
-            className="hover:border-b-4 pb-2 border-slate-700 cursor-pointer"
           >
             Contact Me
           </Link>
