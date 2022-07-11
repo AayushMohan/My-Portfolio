@@ -31,7 +31,7 @@ const Header = () => {
             smooth={true}
             offset={-100}
             duration={500}
-            className="hover:underline cursor-pointer"
+            className="cursor-pointer  hover:border-b-4 pb-2 border-slate-700"
           >
             About
           </Link>
@@ -43,7 +43,7 @@ const Header = () => {
             smooth={true}
             offset={-100}
             duration={500}
-            className="hover:underline cursor-pointer"
+            className="hover:border-b-4 pb-2 border-slate-700 cursor-pointer"
           >
             Stacks
           </Link>
@@ -55,7 +55,7 @@ const Header = () => {
             smooth={true}
             offset={-100}
             duration={500}
-            className="hover:underline cursor-pointer"
+            className="hover:border-b-4 pb-2 border-slate-700 cursor-pointer"
             href="#Projects"
           >
             Projects
@@ -68,7 +68,7 @@ const Header = () => {
             smooth={true}
             offset={-150}
             duration={500}
-            className="hover:underline cursor-pointer"
+            className="hover:border-b-4 pb-2 border-slate-700 cursor-pointer"
           >
             Contact Me
           </Link>

@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="flex space-x-4 md:mr-10 mb-10">
           <a href="https://github.com/AayushMohan">
             <img
-              src="https://img.icons8.com/material-rounded/48/000000/github.png"
+              src="https://img.icons8.com/material-rounded/48/0f172a/github.png"
               className="bg-white rounded-full w-10 h-10 btnAni"
               alt="Github"
             />
@@ -34,7 +34,7 @@ const Footer = () => {
 
           <a href="https://www.linkedin.com/in/aayushmohan/">
             <img
-              src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v1.png"
+              src="https://img.icons8.com/ios-filled/50/0f172a/linkedin-circled--v1.png"
               className="bg-white rounded-full w-10 h-10 btnAni"
               alt="Linkedin"
             />
@@ -42,7 +42,7 @@ const Footer = () => {
 
           <a href="https://www.instagram.com/aayushcodes/">
             <img
-              src="https://img.icons8.com/ios-filled/50/000000/instagram-new--v1.png"
+              src="https://img.icons8.com/ios-filled/50/0f172a/instagram-new--v1.png"
               className="bg-white rounded-2xl w-10 h-10 btnAni"
               alt="Instagram"
             />
@@ -50,7 +50,7 @@ const Footer = () => {
 
           <a href="https://twitter.com/AayushMohan">
             <img
-              src="https://img.icons8.com/ios-filled/50/000000/twitter.png"
+              src="https://img.icons8.com/ios-filled/50/0f172a/twitter.png"
               className="bg-white rounded-full w-10 h-10 btnAni"
               alt="Twitter"
             />
