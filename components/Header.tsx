@@ -29,7 +29,7 @@ const Header = () => {
             to="hero"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={500}
             className="hover:underline cursor-pointer"
           >
@@ -41,7 +41,7 @@ const Header = () => {
             to="stacks"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={500}
             className="hover:underline cursor-pointer"
           >
@@ -53,7 +53,7 @@ const Header = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={500}
             className="hover:underline cursor-pointer"
             href="#Projects"
@@ -66,7 +66,7 @@ const Header = () => {
             to="footer"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-150}
             duration={500}
             className="hover:underline cursor-pointer"
           >
