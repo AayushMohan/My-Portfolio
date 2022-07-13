@@ -15,7 +15,7 @@ const Uber = () => {
             <Image
               src={uber}
               objectFit="fill"
-              className="rounded-lg "
+              className="rounded-lg"
               alt="Uber Thumbnail"
             />
           }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
 import { Link } from "react-scroll";
 
