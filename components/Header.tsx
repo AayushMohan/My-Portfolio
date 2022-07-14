@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
 import { Link } from "react-scroll";
+import { useSpring } from "framer-motion";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
