@@ -19,7 +19,7 @@ const Footer = () => {
           Saying Hi!
         </span>
       </h1>
-      <div className="flex md:flex-row flex-col items-center md:justify-between">
+      <div className="flex md:flex-row flex-col items-center md:justify-between bg-primary ">
         <span className="py-10 text-gray-600 text-center md:text-left md:px-10">
           ©2022. All Rights Reserved
         </span>
