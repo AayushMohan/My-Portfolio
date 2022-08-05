@@ -18,6 +18,7 @@ const Deliveroo = () => {
               height="650"
               objectFit="fill"
               alt="Deliveroo Thumbnail"
+              className="rounded-lg"
             />
           }
         />
