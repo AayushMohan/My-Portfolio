@@ -6,6 +6,7 @@ import Twitter from "./Projects/Twitter";
 import wave3 from "../Assets/wave3.svg";
 import Footer from "./Footer";
 import Link from "next/link";
+import Deliveroo from "./Projects/Deliveroo";
 
 const Projects = () => {
   return (
@@ -14,6 +15,7 @@ const Projects = () => {
         Featured Projects
       </h1>
       <div className="bg-inherit px-6">
+        <Deliveroo />
         <OpenSea />
         <AirBnb />
         <Twitter />
