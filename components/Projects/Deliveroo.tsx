@@ -35,7 +35,7 @@ const Deliveroo = () => {
           Singapore, Hong Kong, the United Arab Emirates and Kuwait.
         </p>
 
-        <div className="h-[6rem] w-[21rem] my-4 md:h-[8rem] items-center cursor-pointer flex justify-start">
+        <div className="h-[6rem] w-[16rem] md:w-[21rem] my-4 md:h-[8rem] items-center cursor-pointer flex justify-start">
           <Image src={Tools4} alt="Tools" />
         </div>
         <div className="flex md:space-x-4 md:justify-start justify-between">

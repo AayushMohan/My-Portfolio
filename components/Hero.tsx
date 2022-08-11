@@ -1,8 +1,8 @@
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
 import Programmer from "../Assets/Programmer.jpg";
 import Wave from "../Assets/wave.svg";
-
+import gif from "../Assets/giphy.gif";
 const Hero = () => {
   return (
     <div className="bg-inherit" id="hero">
@@ -34,6 +34,15 @@ const Hero = () => {
             className="rounded-lg"
             width="652.23"
             height="380.73"
+          />
+        </div>
+        <div className="md:hidden absolute">
+          <Image
+            src={gif}
+            className="opacity-30 mix-blend-lighten bg-inherit color-primary"
+            alt="GIF"
+            width="500"
+            height="500"
           />
         </div>
       </div>
