@@ -1,11 +1,9 @@
-import Image from "next/image";
 import React from "react";
-import Aayush from "../Assets/Aayush.svg";
 
 const Footer = () => {
   return (
-    <div className=" bg-inherit flex flex-col overflow-hidden" id="footer">
-      <h1 className="text-3xl md:text-left md:text-4xl text-center py-10 leading-relaxed font-bold md:w-[30rem] md:mx-24">
+    <div className="bg-inherit overflow-hidden" id="footer">
+      <h1 className="text-3xl md:text-left md:text-4xl text-center py-10 leading-relaxed font-bold md:w md:mx-">
         Let's make something amazing together.
       </h1>
       <h1 className="text-3xl md:text-left text-center md:text-4xl font-bold md:mx-24 md:my-20">
