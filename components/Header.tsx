@@ -33,6 +33,7 @@ const Header = () => {
               smooth={true}
               offset={-100}
               duration={500}
+              href="../components/Hero.tsx"
             >
               About
             </Link>
@@ -44,6 +45,7 @@ const Header = () => {
               smooth={true}
               offset={-100}
               duration={500}
+              href="../components/Stack.tsx"
             >
               Stacks
             </Link>
@@ -67,6 +69,7 @@ const Header = () => {
               smooth={true}
               offset={-150}
               duration={500}
+              href="../components/Footer.tsx"
             >
               Contact Me
             </Link>
